@@ -14,6 +14,7 @@ public class PriorityQueue<T>
     private int size;
     private static final int INITIAL_CAPACITY = 10;
     
+    //stupid IDE things :(
     @SuppressWarnings("unchecked")
     public PriorityQueue()
     {
@@ -21,7 +22,7 @@ public class PriorityQueue<T>
         heap = (Entry<T>[]) new Entry[INITIAL_CAPACITY];
         size = 0;
     }
-    
+    //:p
     @SuppressWarnings("unchecked")
     private void resize() {
         // double the array size when we run out of room
